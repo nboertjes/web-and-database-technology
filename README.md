@@ -29,6 +29,12 @@ vagrant destroy
 vagrant ssh
 ```
 
+## SSH Access
+
+- Hostname: 127.0.0.1:2222
+- Username: vagrant
+- Password: vagrant
+
 ## Database Access
 
 ### MySQL 
