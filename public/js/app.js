@@ -72,6 +72,11 @@ $('#task-name, #task-deadline').on('keyup', function (e) {
         var importance = $('#task-importance').val();
         var deadline = $('#task-deadline').val();
 
+        if (name === '' || name === null) {
+            alert('name is empty');
+            return;
+        }
+
         addTask(name, importance, deadline);
 
         // Reset input fields
